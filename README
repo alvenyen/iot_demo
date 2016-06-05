@@ -1,0 +1,10 @@
+How to run the server:
+
+1. Install python and python-devel
+2. Copy www folder to /var
+3. Go to /var/www and run the server with "python server.py", make sure 8081 port is available
+4. Browse UI with http://[IP]:8081/index.html
+
+Trouble shooting:
+
+1. If you got any permission denied warning of server output, just chmod +x for that file 

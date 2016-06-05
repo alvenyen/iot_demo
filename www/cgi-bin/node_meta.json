@@ -1,0 +1,37 @@
+{
+    "nodes": {
+        "1": {
+            "components": {
+                "led": {
+                    "component_name": "led", 
+                    "state": "on"
+                }
+            }, 
+            "node_id": "1", 
+            "node_name": "node-1", 
+            "online": true
+        }, 
+        "2": {
+            "components": {
+                "led": {
+                    "component_name": "led", 
+                    "state": "on"
+                }
+            }, 
+            "node_id": "2", 
+            "node_name": "node-2", 
+            "online": true
+        }, 
+        "3": {
+            "components": {
+                "led": {
+                    "component_name": "led", 
+                    "state": "off"
+                }
+            }, 
+            "node_id": "3", 
+            "node_name": "node-3", 
+            "online": false
+        }
+    }
+}

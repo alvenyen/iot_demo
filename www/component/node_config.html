@@ -1,0 +1,46 @@
+<script type="text/javascript" language="javascript" src="component/js/node_config.js"></script>
+<div id="content" style="margin-top:50px">
+    <div class="panel panel-default" style="width:800px;margin:0 auto">
+        <div class="panel-heading">
+            <h3 class="panel-title">Nodes</h3>
+        </div>
+        <div id="log_panel" class="panel-body">
+            <div id="log_control_bar" class="btn-toolbar" role="toolbar">
+                <button type="button" class="btn btn-gray" id="add_node">Add Node</button>
+                <button type="button" class="btn btn-gray" id="delete_node">Delete Node</button>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <table id="node_table" class="table-bordered"></table>
+        </div>
+    </div>
+    <div>
+        <div id="dialog_add_node" class="modal fade">
+            <div class="modal-dialog modal-lg" style="width:400px">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                        <h4 data-translate="EXPORTED_LOGS" class="modal-title">Add Node</h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group" id="enable_export_log_form">
+                            <label for="node_id_input" class="control-label">Node ID:</label>
+                            <span class="pull-right">
+                                <input id="node_id_input" type="text" class="form-control" style="display:inline;width:170px;"/>
+                            </span>
+                        </div>
+                        <div class="form-group" id="enable_export_log_form">
+                            <label for="node_name_input" class="control-label">Node Name:</label>
+                            <span class="pull-right">
+                                <input id="node_name_input" type="text" class="form-control" style="display:inline;width:170px;"/>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-gray" id="add_node_submit">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
